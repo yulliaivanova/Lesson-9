@@ -1,0 +1,4 @@
+@mixin accent-section($bg-color, $text-color) {
+  background-color: $bg-color;
+  color: $text-color
+}

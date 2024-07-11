@@ -1,0 +1,10 @@
+@media screen and (max-width: 750px) {
+  .center {
+    padding-left: calc(50vw - 300px);
+    padding-right: calc(50vw - 300px)
+  }
+
+  .nav__list {
+    flex-wrap: wrap;
+  }
+}

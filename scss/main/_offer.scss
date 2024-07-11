@@ -1,0 +1,23 @@
+.offer {
+  padding-top: 142px;
+  padding-bottom: 142px;
+
+
+  &__content {
+    max-width: 540px;
+  }
+
+  &__title {
+    font-size: 48px;
+    color: red;
+    /*line-height: 1.64;*/
+    /*margin-top: 0;*/
+    /*margin-bottom: 60px;*/
+    margin: 0 0 60px;
+
+  }
+
+  &__description {
+    margin: 0 0 60px;
+  }
+}

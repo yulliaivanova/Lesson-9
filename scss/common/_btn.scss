@@ -1,0 +1,27 @@
+.btn {
+  @include accent-section($bg-color: var(--color-accent), $text-color: var(--color-contrast));
+  /*left: 50%;*/
+  /*top: 50%;*/
+  /*!*translate: -50% -50%;*!*/
+  //background: var(--color-accent);
+  //color: var(--color-contrast);
+  min-width: 225px;
+  width: 0;
+  min-height: 65px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  box-sizing: border-box;
+
+
+  &:hover,
+  &:focus {
+    background: var(--color-contrast);
+    color: var(--color-accent);
+  }
+
+  &:active {
+    opacity: .7;
+  }
+}
